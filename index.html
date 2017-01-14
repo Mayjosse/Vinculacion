@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html ng-app="vinculacionApp">
+<head lang="es">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Styles -->
+  <link rel="stylesheet" href="content/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="content/style/main/main.css">     
+  <!-- fonts -->
+  <link rel="stylesheet" href="content/assets/fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="content/assets/fonts/font-tec/tec-font.css">
+  <!-- Angularjs -->   
+  <script src="scripts/libs/angular1.5.8/angular.min.js"></script>
+  <script src="scripts/libs/angular1.5.8/angular-ui-router.min.js"></script>
+  <script src="scripts/libs/angular1.5.8/angular-animate.min.js"></script>
+  <script src="scripts/libs/angular1.5.8/angular-sanitize.min.js"></script>
+  <!--ui bootstrap-->  
+  <script src="scripts/libs/ui-bootstrap2.1.3/ui-bootstrap-tpls-2.1.3.min.js"></script>
+
+  <script src="app/app.js"></script>
+  <title>Vinculación</title>
+</head>
+<body>   
+  <navegacion></navegacion>
+  <div class="container-top">
+   <div ui-view></div>
+ </div>
+ <footer class="footer">
+  <div class="row"> <center><img  style="width:150px" src="content/assets/img/logo-sep-blanco.png"></center></div><br>
+  <center>Instituto Tecnológico de Tijuana<br>
+    Calzada Del Tecnológico S/N, Fraccionamiento Tomas Aquino. Tijuana, Baja California. C.P. 22414 Teléfono: +52 (664) 607 8400<br>
+    Tecnológico Nacional de México - Algunos derechos reservados © 2016<br>
+    Polĺtica de Privacidad</center>
+  </footer>
+</body>
+<!--App script-->
+
+<!-- Directives-->
+<script src="app/Directivas/Navegacion/navegacion.js"></script>
+<script src="app/Directivas/Carousel/carousel.js"></script>
+
+<!-- Controllers-->
+<script src="app/Vinculacion/Inicio/inicioCtrl.js"></script>
+<script src="app/Bolsa/bolsaCtrl.js"></script>
+
+<script src="app/Bolsa/Vacantes/vacantesCtrl.js"></script>
+<script src="app/Bolsa/Vacantes/vacantesDetalleCtrl.js"></script>
+<script src="app/Bolsa/Curriculum/curriculumCtrl.js"></script>
+<script src="app/Vinculacion/Noticias/noticiasCtrl.js"></script>
+<script src="app/Vinculacion/ServicioSocial/servicioSocialCtrl.js"></script>
+<script src="app/Vinculacion/Residencias/residenciaCtrl.js"></script>
+<script src="app/Vinculacion/PracticasProfesionales/practicasProfesionalesCtrl.js"></script>
+<script src="app/Vinculacion/Egresados/egresadosCtrl.js"></script>
+<script src="app/Vinculacion/Agenda/agendaCtrl.js"></script>
+<script src="app/Vinculacion/VisitasIndustriales/visitasIndustrialesCtrl.js"></script>
+</html>
+
+
+
+
